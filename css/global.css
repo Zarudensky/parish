@@ -599,6 +599,9 @@ textarea:focus {
   font-weight: bold;
   margin: 0;
 }
+.center {
+  text-align: center;
+}
 .pt_date {
   font-size: 12px;
   font-weight: 600;
@@ -613,6 +616,9 @@ textarea:focus {
 .pt_descr p b {
   font-weight: bold;
   text-transform: uppercase;
+}
+.pt__block.tools__block {
+  margin: 100px 0;
 }
 
 .footer {
@@ -1178,6 +1184,9 @@ textarea:focus {
   }
   .footer__nav {
     margin-left: auto;
+  }
+  .pt__block.tools__block {
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
