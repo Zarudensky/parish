@@ -1048,6 +1048,10 @@ body {
   .btn__sol {
     margin: 0 auto;
   }
+  .board__titele {
+    font-size: 32px;
+    line-height: 38px;
+  }
 }
 @media screen and (max-width: 860px) {
   .modal__container {
