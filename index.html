@@ -53,7 +53,7 @@
 		    		</nav>
 		    		<div class="btn__block">
 		    			<button class="btn btn__reg">REGISTER</button>
-		    			<button class="btn btn__log"><img class="btn__icon" src="img/login.svg" alt="login"></img>SIGN IN</button>
+		    			<button class="btn btn__log"><img class="btn__icon" src="img/login.svg" alt="login">SIGN IN</button>
 		    		</div>
 	    		</div>
 	    		<div class="menu__back"></div>
@@ -79,7 +79,7 @@
 					<img class="tools__icon" src="img/tools.svg" alt="tools">
 					<h3 class="tools__titele">All the tools you need in one package</h3>
 					<p class="tools__descr">Parish Home isn’tjust a set of tools, it’s a seamlessly integrated platform. Each of our solutions talk to<br> each other and integrate with your membership database. This make the system easier to<br> useanddelivers powerful new capabilities.</p>
-					<button class="btn btn__sol">Learn More</button>
+					<button id="learnMore" class="btn btn__sol">Learn More</button>
 					<div class="tools__block">
 						<div class="tools__line tools__line_left"></div>
 						<div class="tools__ellipse"></div>
@@ -125,8 +125,8 @@
 						<h3 class="board__titele">Mobile access</h3>
 						<p class="board__descr">Parish Home’s mobile apps for <span>Apple</span> and <span>Android</span> keep everyone connected<br> and in the loop. Ministry leaders and volunteers can trade messages, view<br> schedules, and share files. Parishioners can volunteer, check the church<br> calendar, view statements, update their profiles, and much more. Your<br> parishioners will love the ease of access.</p>
 						<div class="board__btns">
-							<a class="btn btn__google" href="#"><i class="ic_gogle"></i><span>Get it on<br><b>Google Play<b></span></a>
-							<a class="btn btn__app" href="#"><i class="ic_app"></i><span>Download on the<br><b>App Store<b></span></a>
+							<a class="btn btn__google" href="#"><i class="ic_gogle"></i><span>Get it on<br><b>Google Play</b></span></a>
+							<a class="btn btn__app" href="#"><i class="ic_app"></i><span>Download on the<br><b>App Store</b></span></a>
 						</div>
 					</div>
 				</div>
@@ -149,7 +149,30 @@
     		</nav>
 		</footer>
 
-		<a href="#" class="scrollup"></span></a>
+		<div id="learnMoreModal" class="modal learn__modal">
+			<div class="modal__container">
+				<span class="close">
+					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M11.7965 9.98601L19.5605 2.22177C20.0657 1.71674 20.0657 0.900177 19.5605 0.395146C19.0554 -0.109885 18.2389 -0.109885 17.7338 0.395146L9.96959 8.15938L2.20558 0.395146C1.70031 -0.109885 0.883983 -0.109885 0.378951 0.395146C-0.126317 0.900177 -0.126317 1.71674 0.378951 2.22177L8.14296 9.98601L0.378951 17.7502C-0.126317 18.2553 -0.126317 19.0718 0.378951 19.5769C0.630639 19.8288 0.961571 19.9554 1.29227 19.9554C1.62296 19.9554 1.95366 19.8288 2.20558 19.5769L9.96959 11.8126L17.7338 19.5769C17.9858 19.8288 18.3164 19.9554 18.6471 19.9554C18.9778 19.9554 19.3085 19.8288 19.5605 19.5769C20.0657 19.0718 20.0657 18.2553 19.5605 17.7502L11.7965 9.98601Z"/>
+					</svg>
+				</span>
+				<div class="modal__block">
+					<h3 class="modal__titele">Learn more</h3>
+					<p class="modal__descr">There are many ways that Parish Home will enhance your parish, not the least of which is through engagement with your community. Let’s look at an example. You’re planning an exciting event in a few months. You need to reserve space, setup registration, line up volunteers, and make your community aware of the opportunity. Instead of using three, four, or more disconnected tools you can get everything done in once place.</p>
+					<p class="modal__descr">
+						- Create an event, identify facility availability, and reserve the space in Facility Scheduler<br>
+						- Design a customized online registration form with payment processing and link it to the event<br>
+						- Use the Sign Up tool to define your volunteer needs and line up volunteers<br>
+						- Design a beautiful announcement and broadcast it to your community in a click with our robust Communications tool
+					</p>
+					<p class="modal__descr">You parishioners will love the communications and how easy it is to get signed up. Once registered, they’ll receive automatic reminders and can add the event to their personal calendar. When the event is over, you can easily send a thank you note to everyone who attended.</p> 
+					<p class="modal__descr">The entire process can be completed quickly in Parish Home, with no data transfers, no extra fees, and none of those annoying or inappropriate ads. That’s the power of the Parish Home platform.</p>
+				</div>
+			</div>
+			<div class="modal__back"></div>
+		</div>
+
+		<a href="#" class="scrollup"></a>
 	</body>
 	
 </html>
