@@ -620,6 +620,18 @@ textarea:focus {
 .pt__block.tools__block {
   margin: 100px 0;
 }
+.parish__page .pt {
+  align-items: center;
+}
+.parish__page .btn__sol {
+  margin: 40px auto 0;
+}
+.parish__page h2 {
+  margin-top: 40px;
+}
+.parish__page .mt {
+  margin-top: 10px;
+}
 
 .footer {
   display: flex;
@@ -1186,6 +1198,9 @@ textarea:focus {
     margin-left: auto;
   }
   .pt__block.tools__block {
+    display: none;
+  }
+  .parish__page .pt_descr br {
     display: none;
   }
 }
