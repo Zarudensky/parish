@@ -1,5 +1,4 @@
 * {
-  position: 0px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -544,6 +543,7 @@ body {
   height: 168px;
   margin: 0 auto;
   padding: 0 55px 0 90px;
+  border-top: 1px solid #C4C4C4;
 }
 .footer__block {
   display: flex;
