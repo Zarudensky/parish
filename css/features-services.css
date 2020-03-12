@@ -1,0 +1,126 @@
+.fs__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  height: 400px;
+  margin: 0 auto;
+}
+.fs__block {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 100px);
+  height: 100%;
+}
+.fs__block-dark {
+  background: #F1F1F1;
+}
+.fs__block-light {
+	background: linear-gradient(180deg, rgba(248, 248, 248, 0.78) 0%, rgba(255, 255, 255, 0) 55.25%);
+}
+.fs__text-right {
+	align-items: flex-end;
+  text-align: right;
+  padding-right: 100px;
+}
+.fs__text-left {
+	align-items: flex-start;
+  text-align: left;
+  padding-left: 100px;
+}
+.fs__icon {
+	margin-top: 65px;
+	margin-bottom: 15px
+}
+.fs__titele {
+  font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	color: #4A4A4A;
+  margin-bottom: 20px;
+}
+.fs__descr {
+  font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	color: #4A4A4A;
+}
+.fs__descr span {
+  font-weight: 600;
+}
+.services__titele {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;
+	color: #4A4A4A;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	padding: 0 15px;
+}
+.services__descr {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	color: #4A4A4A;
+	margin-bottom: 50px;
+	padding: 0 15px;
+}
+@media screen and (max-width: 1330px) {
+  .fs__block {
+	  width: calc(50% - 50px);
+	}
+	.fs__text-right {
+	  padding-right: 50px;
+	}
+	.fs__text-left {
+	  padding-left: 50px;
+	}
+	.fs__icon {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1230px) {
+	.fs__block {
+	  width: calc(50% - 45px);
+	}
+	.fs__text-right {
+		padding-left: 15px;
+	  padding-right: 50px;
+	}
+	.fs__text-left {
+		padding-right: 15px;
+	  padding-left: 50px;
+	}
+	.fs__descr br {
+	  display: none;
+	}
+}
+@media screen and (max-width: 900px) {
+	.fs__container {
+		flex-direction: column;
+		height: auto;
+	}
+	.fs__block {
+	  width: calc(100% - 30px);
+	}
+	.fs__text-right,
+	.fs__text-left {
+		align-items: center;
+		text-align: center;
+		padding: 25px 15px;
+	}
+	.fs__icon {
+    margin-top: 0;
+	}
+	.section__even .fs__container {
+		flex-direction: column-reverse;
+	}
+}
+@media screen and (max-width: 840px) {
+	.services__descr br {
+		display: none;
+	}
+}

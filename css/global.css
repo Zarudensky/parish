@@ -228,6 +228,10 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: calc(100vh - 168px);
+  margin-top: 134px;
+}
+.index__page .content{
+  margin: 0;
 }
 .content__section {
   width: 100%;
@@ -509,9 +513,6 @@ body {
   margin-left: 8px;
   margin-right: 5px;
 }
-.board__btns .btn span {
-  
-}
 .board__btns .btn b {
   font-weight: 600;
   font-size: 20px;
@@ -519,9 +520,6 @@ body {
 }
 .btn__google {
   margin-right: 15px;
-}
-.btn__app {
-
 }
 .btn__google i{
   width: 30px;
@@ -858,7 +856,6 @@ body {
     height: 100vh;
     top: 0;
     background: #fff;
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
     z-index: 9999;
     animation: closedMenu 0.4s 1 linear;
   }
@@ -949,6 +946,9 @@ body {
     left: 44px;
     right: 44px;
     width: auto;
+  }
+  .content {
+    margin-top: 90px;
   }
   .main__container {
     width: calc(100% - 30px);
