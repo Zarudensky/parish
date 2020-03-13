@@ -510,6 +510,17 @@ textarea:focus {
   text-transform: capitalize;
   margin-bottom: 35px;
 }
+.board__titele a {
+  white-space: nowrap;
+  color: #0099BB;
+  text-decoration: none; 
+}
+.board__titele a:hover {
+  color: #00B8D6;
+}
+.board__titele a:active {
+  color: #0099BB;
+}
 .board__titele sup {
   top: -1.2em;
   font-size: 45%;
